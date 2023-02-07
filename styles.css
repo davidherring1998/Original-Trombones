@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.headerDiv{
+    background-image: url('./headerBackground1.jpg');
+    /* background-color: red; */
+    border: 1px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#headerId{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 5px;
+    background-color: white;
+    opacity: .925;
+    border: 5px solid black;
+    border-radius: 5pc;
+}
+#headerId img {
+    width: 60px;
+    height: 30px;
+
+}
+/* navbar */
+
+#nav-bar{
+    background-color: #A4A8D1;
+    margin-top: -16px;
+}
+#nav-bar a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px;   
+}
+#nav-bar ul {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+#nav-bar a:hover{
+    font-size: 14px;
+}
+
+/* form */
+
+#subHeader{
+    text-align: center;
+    font-family:fantasy ;
+    font-size: 25px;
+}
+#form{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: -50px;
+    padding: 20px;
+    font-family:fantasy ;
+    font-size: 18px;
+}
+#emailHeader{
+    text-decoration: underline;
+    margin-bottom: 100px;
+}
+#emailInput{
+    margin: 20px;
+    width: 65%;
+    padding-left: 5px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+#submit{
+    background-color: #A4A8D1;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+}
+#submit:hover{
+    font-size: 13px;
+    color: white;
+}
+
+/* body */
+#features{
+    margin: 20%;
+    margin-top: 50px;
+}
+.desriptionHeader{
+    font-family:fantasy ;
+    font-size: 20px;
+}
+
+
+
+/* 
+9D858D 
+BBA0B2
+A4A8D1
+A4BFEB
+8CABBE
+*/

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Original Trombones</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+
+    <!-- Number 1: header with id='header' -->
+    <!-- Number 2: img withing header el with id='header-img' -->
+    <div class="headerDiv">
+      <header id="header">
+        <h1 id="headerId">
+          Original Trombones
+          <img
+            src="./trombone.jpg"
+            alt="Logo"
+            width="20px"
+            height="20px"
+            id="header-img"
+          />
+        </h1>
+      </header>
+    </div>
+
+    <!-- Nav -->
+
+    <!-- Number 3: inside of header el, nav el with id='nav-bar' -->
+    <nav id="nav-bar">
+      <!-- Number 4: Inside of nav el, 3 clickable el with id='nav-link' -->
+      <!-- Number 5: onClick on nac el, directed to corresponding section -->
+      <ul>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#howItWorks" class="nav-link">How It Works</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+      </ul>
+    </nav>
+
+    <!-- email section -->
+    <h3 id="subHeader">Handcrafted, home-made masterpieces</h3>
+
+    <!-- form section  -->
+
+    <!-- Number 7: Form has id='form' -->
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <fieldset>
+        <!-- Number 8: Input field with id='email' & can enter email -->
+        <!-- Number 9: #email has a placeholder -->
+        <!-- Number 10: #email uses HTML5 validation to confirm the input is an email -->
+        <span id="emailHeader">Signup today for weekly updates!</span> <br>
+        <label for="email" id="emailLabel">
+          <input type="email" id="emailInput" placeholder="Email.." name="email"
+        /></label> <br>
+        <!-- Number 11: Submit input with id='submit' -->
+        <!-- Number 12: When user clicks submit, email is submitted to a static page. -->
+        <input type="submit" name="submit" id="submit" />
+      </fieldset>
+    </form>
+
+    <!--Features section -->
+
+    <section id="features">
+      <div id="materials">
+        <img src="" alt="" />
+        <div class="description">
+          <h4 class="desriptionHeader">Premium Materials</h4>
+          <p class="descriptionP">
+            Our trombones use the shiniest brass which is sourced locally. This
+            will increase the longevity of your purchase.
+          </p>
+        </div>
+      </div>
+
+      <div id="shipping">
+        <img src="" alt="" />
+        <div class="description">
+          <h4 class="desriptionHeader">Fast Shipping</h4>
+          <p class="descriptionP">
+            We make sure you receive your trombone as soon as we have finished
+            making it. We also provide free returns if you are not satisfied.
+          </p>
+        </div>
+      </div>
+
+      <div id="quality">
+        <img src="" alt="" />
+        <div class="description">
+          <h4 class="desriptionHeader">Quality Assurance</h4>
+          <p class="descriptionP">
+            For every purchase you make, we will ensure there are no damages or
+            faults and we will check and test the pitch of your instrument.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works section  -->
+
+    <section id="howItWorks">
+        <h3>How it works</h3>
+      <iframe
+        width="560"
+        height="315"
+        id="video"
+        src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <!-- Pricing section -->
+
+    <section id="pricing">
+      <div class="tenor">
+        <div><h3 class="pricingHeader">Tenor Trombone</h3></div>
+        <div class="pricingBody">
+          <h4>$600</h4>
+          <ul>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+          </ul>
+          <button class="pricingBtn">Select</button>
+        </div>
+      </div>
+
+      <div class="bass">
+        <div><h3 class="pricingHeader">Bass Trombone</h3></div>
+        <div class="pricingBody">
+          <h4>$900</h4>
+          <ul>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+          </ul>
+        </div>
+        <button class="pricingBtn">Select</button>
+      </div>
+
+      <div class="valve">
+        <div><h3 class="pricingHeader">Valve Trombone</h3></div>
+        <div class="pricingBody">
+          <h4>$1200</h4>
+          <ul>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+          </ul>
+        </div>
+        <button class="pricingBtn">Select</button>
+      </div>
+    </section>
+
+    <footer>
+      <div>&copy; 2016 Original Trombones</div>
+    </footer>
+  </body>
+</html>
