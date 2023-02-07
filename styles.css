@@ -5,7 +5,7 @@ body{
 }
 
 .headerDiv{
-    background-image: url('./headerBackground1.jpg');
+    background-image: url('./musicNotes.jpg');
     /* background-color: red; */
     border: 1px solid black;
     background-position: center;
@@ -43,6 +43,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 14px 16px;   
+    margin-right: 10px;
 }
 #nav-bar ul {
     display: flex;
@@ -55,10 +56,11 @@ body{
 
 /* form */
 
-#subHeader{
+.subHeaders{
     text-align: center;
     font-family:fantasy ;
     font-size: 25px;
+    margin-top: 30px;
 }
 #form{
     text-align: center;
@@ -66,10 +68,12 @@ body{
     list-style: none;
     margin-left: 15%;
     margin-right: 15%;
-    margin-bottom: -50px;
+    margin-bottom: 50px;
+    margin-top: 75px;
     padding: 20px;
     font-family:fantasy ;
     font-size: 18px;
+    font
 }
 #emailHeader{
     text-decoration: underline;
@@ -95,15 +99,35 @@ body{
 }
 
 /* body */
+#howItWorksHeader{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
 #features{
     margin: 20%;
-    margin-top: 50px;
+    margin-top: -50px;
 }
-.desriptionHeader{
-    font-family:fantasy ;
-    font-size: 20px;
+.description{
+    margin: 50px;
+}
+#video{
+    border: 8px solid #A4A8D1;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
 }
 
+/* Pricing */
+
+#pricing{
+    display: grid;
+    column-gap: 50px;
+
+}
+.pricingBody{
+    border: 1px solid black;
+}
 
 
 /* 
